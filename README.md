@@ -34,7 +34,7 @@ There are probably way too many products out there that serve as Ecommerce platf
 *	In order to test the integration a payment needs to be done. Please use the **[Stripe's Test Credit Cards](https://stripe.com/docs/testing)** and avoid using a real one.
 *	Make sure Stripe is in test data mode to avoid any real charges, transactions or fees
 ![Stripe's Test Data](https://www.arguinzon.es/public/images/documentation/testdata.png)
-* Understand the concept of [Idempotency](https://stripe.com/blog/idempotency). Its a quite simple math principle that can be used to guarantee your customers are not charged more than once per transaction (your customers and your PR team will thank you for it and Stripe makes it quite simple to implement)
+* Understand the concept of [Idempotency](https://stripe.com/blog/idempotency). Its a quite simple math principle that can be used to guarantee your customers are not charged more than once per transaction (your customers and your PR team will thank you for it and Stripe makes it quite simple to implement). This is easily implemented in the project via a custom header.
 
 ## Getting the project ready to run
 
